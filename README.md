@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Yunusabdul38/fylo-landing-page)
-- Live Site URL: [Add live site URL here](https://yunusabdul-fylo-page.netlify.app/)
+- Solution URL: [ solution URL](https://github.com/Yunusabdul38/fylo-landing-page)
+- Live Site URL: [live site URL](https://yunusabdul-fylo-page.netlify.app/)
 
 ### Built with
 
@@ -49,6 +49,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://yunusabdul-profile.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Yunusabdul38)
-- Twitter - [@yourusername](https://mobile.twitter.com/yunusabdul38)
+- Website - [Yunus contact page](https://yunusabdul-profile.netlify.app)
+- Frontend Mentor - [@Yunusabul38](https://www.frontendmentor.io/profile/Yunusabdul38)
+- Twitter - [@Yunusabdul38](https://mobile.twitter.com/yunusabdul38)
