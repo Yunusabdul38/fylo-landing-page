@@ -12,17 +12,45 @@ header {
   display: flex;
   margin-block-start: 15px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  background-color: hsl(238, 22%, 44%);
   margin-inline: 20px;
   font-family: "Raleway", sans-serif;
   text-transform: capitalize;
+  position: fixed;
+  padding: 5px;
+  height: 2.7em;
+  overflow: hidden;
+  flex-direction: column;
+  width: 90%;
+  top: 0;
+  border-radius: 10px;
+  transition: all linear 200ms;
+}
+.hight {
+  height: 13em;
+}
+header .btn {
+  position: absolute;
+  right: 4%;
+  color: white;
+  font-size: 2rem;
+}
+.headr_container {
+  margin-bottom: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header .logo img {
   width: 120px;
 }
 header ul {
   list-style: none;
-  display: inline-flex;
+  display: block;
+  line-height: 55px;
+  padding-left: 5%;
   align-items: center;
 }
 header li {
@@ -31,7 +59,7 @@ header li {
 }
 header ul a {
   text-decoration: none;
-  color: hsl(238, 22%, 44%);
+  color: white;
 }
 .container {
   padding: 0 15px;
@@ -89,14 +117,14 @@ button {
   background-color: hsl(244, 41%, 25%);
   color: hsl(240, 75%, 98%);
 }
-a:hover{
+a:hover {
   cursor: pointer;
   color: hsl(244, 41%, 25%);
 }
-i:hover{
+i:hover {
   color: hsl(224, 93%, 58%);
 }
-button:hover{
+button:hover {
   background: hsl(224, 93%, 58%);
 }
 .little-info {
@@ -206,7 +234,7 @@ footer {
   padding: 50px;
   line-height: 35px;
 }
-footer .footer_content a{
+footer .footer_content a {
   display: block;
 }
 footer img {
@@ -221,6 +249,23 @@ footer .foot-logo {
   filter: saturate(55%) brightness(10%) contrast(4%);
 }
 @media screen and (min-width: 40em) {
+  header .btn {
+    display: none;
+  }
+  header {
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    padding: 2px 5px;
+    height: auto;
+  }
+  .hight {
+    height: 2.7em;
+  }
+  header ul {
+    line-height: normal;
+    display: inline-flex;
+  }
   .group_container {
     display: flex;
     flex-direction: row-reverse;
