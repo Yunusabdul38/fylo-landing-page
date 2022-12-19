@@ -248,6 +248,21 @@ footer .contact img {
 footer .foot-logo {
   filter: saturate(55%) brightness(10%) contrast(4%);
 }
+.little-info a:hover{
+  color:rgb(157, 201, 174);
+}
+@media screen and (max-width:39.9em){
+  .footer_social{
+    display: flex;
+    justify-content: center;
+  }
+  .social-media i {
+    font-size: 2em;
+    border: 1px lightcyan solid;
+    border-radius: 50%;
+    padding: 5px;
+  }
+}
 @media screen and (min-width: 40em) {
   header .btn {
     display: none;
@@ -340,7 +355,7 @@ footer .foot-logo {
   }
   .access-section__right {
     width: 40%;
-    max-width: 400px;
+    /* max-width: 400px; */
   }
   .access-section__right button {
     max-width: 200px;
@@ -360,6 +375,7 @@ footer .foot-logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
   }
   .social-media i {
     font-size: 2em;
